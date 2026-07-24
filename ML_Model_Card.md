@@ -22,7 +22,7 @@ This protocol does not include a distinct hyperparameter-validation set, externa
 
 ## Interpretability
 
-TreeSHAP values are computed for held-out observations and saved for every subgroup. They describe the contribution of a feature to the fitted model prediction in the study data. SHAP values should be interpreted as model associations, not as causal effects or validated mechanisms.
+TreeSHAP values are computed for held-out observations and saved for every subgroup. They describe the contribution of a feature to the fitted model prediction in the study data.
 
 ## Computing environment
 
