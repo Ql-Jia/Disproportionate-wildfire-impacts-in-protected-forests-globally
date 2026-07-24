@@ -28,12 +28,6 @@ Both analyses use `xgboost.XGBRegressor` with histogram tree construction, 500 t
 
 Pearson correlation, p-value, and RMSE are reported. SHAP values are calculated on each held-out fold to describe model associations with the response.
 
-## Scope and limitations
-
-These are explanatory association models, not causal-effect estimators or operational fire-severity forecasting systems. No independent validation set, external dataset, benchmark-model comparison, hyperparameter search, ablation study, or spatial/temporal holdout is included. Random row-level cross-validation may overestimate generalization when spatially or temporally correlated records occur in different folds. Matching improves comparability but cannot eliminate residual confounding, measurement uncertainty, selection effects, or unequal biome sample sizes.
-
-The manuscript Methods identifies the upstream data sources, matched-pixel construction, dNBR calculation, and variable definitions. This archive provides analysis-ready derived data rather than the complete upstream data-processing pipeline.
-
 ## Computational resources
 
 The documented workstation uses Windows 11 Pro 64-bit (10.0.26200), an Intel Core Ultra 7 265K CPU with 20 logical processors, 127.35 GiB RAM, and an NVIDIA GeForce RTX 4060 Ti GPU with 8,188 MiB memory (driver 591.86). The scripts use `n_jobs=8` and save runtime summaries. Energy use and carbon footprint were not measured.
