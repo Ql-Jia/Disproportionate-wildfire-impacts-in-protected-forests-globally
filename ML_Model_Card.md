@@ -25,7 +25,7 @@ Models are fitted independently for biome codes 1, 2, 3, 4, 5, 6, and 12. The im
 
 ## Intended use
 
-The workflows are intended for retrospective explanatory analysis within the study population. They quantify model associations between the selected predictors and fire severity or matched fire-severity differences. They are not intended for causal attribution, operational wildfire forecasting, risk management decisions, or predictions beyond the spatial, temporal, and ecological scope of the supplied data.
+The workflows are intended for retrospective explanatory analysis within the study population. They quantify model associations between the selected predictors and fire severity or matched fire-severity differences. They are not intended for operational wildfire forecasting, risk management decisions, or predictions beyond the spatial, temporal, and ecological scope of the supplied data.
 
 ## Training data
 
@@ -45,14 +45,10 @@ This evaluation is internal random cross-validation only. No external independen
 
 ## Limitations and bias considerations
 
-The results may be affected by residual confounding, measurement error, spatial and temporal dependence, matching-selection effects, and unequal sample sizes among biomes. Random row-level cross-validation can be optimistic if related observations occur in different folds. Matching improves comparability but does not establish causal effects. SHAP values represent feature associations within fitted models and should not be interpreted as causal contributions.
+The results may be affected by residual confounding, measurement error, spatial and temporal dependence, matching-selection effects, and unequal sample sizes among biomes. Random row-level cross-validation can be optimistic if related observations occur in different folds. 
 
 ## Computing environment
 
 The documented environment is Python 3.11.14 with NumPy 2.4.6, pandas 3.0.1, SciPy 1.16.3, scikit-learn 1.7.2, XGBoost 3.2.0, SHAP 0.51.0, Matplotlib 3.10.7, pygam 0.12.0, statsmodels 0.14.6, and openpyxl 3.1.5. The documented workstation uses Windows 11 Pro 64-bit, an Intel Core Ultra 7 265K CPU, 127.35 GiB RAM, and an NVIDIA GeForce RTX 4060 Ti GPU.
 
 The delta-dNBR workflow processed 24,428 records in 33.22 s; the dNBR workflow processed 48,856 records in 69.84 s. Runtime will vary with hardware and software configuration. Energy use and carbon-emission estimates were not measured.
-
-## Citation and contact
-
-Please cite the associated manuscript, *Disproportionate wildfire impacts in protected forests globally*, when using this archive. Contact: Qinglong Jia, University of Electronic Science and Technology of China, Qinglong.Jia@outlook.com.
