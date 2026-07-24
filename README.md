@@ -1,0 +1,1 @@
+# Disproportionate-wildfire-impacts-in-protected-forests-globally
