@@ -30,7 +30,7 @@ Pearson correlation, p-value, and RMSE are reported. SHAP values are calculated 
 
 ## Computational resources
 
-The documented workstation uses Windows 11 Pro 64-bit (10.0.26200), an Intel Core Ultra 7 265K CPU with 20 logical processors, 127.35 GiB RAM, and an NVIDIA GeForce RTX 4060 Ti GPU with 8,188 MiB memory (driver 591.86). The scripts use `n_jobs=8` and save runtime summaries. Energy use and carbon footprint were not measured.
+The documented workstation uses Windows 11 Pro 64-bit (10.0.26200), an Intel Core Ultra 7 265K CPU with 20 logical processors, 127.35 GiB RAM, and an NVIDIA GeForce RTX 4060 Ti GPU with 8,188 MiB memory (driver 591.86). The scripts use `n_jobs=8` and save runtime summaries. On this workstation, the delta-dNBR workflow processed 24,428 records in 33.22 s, and the dNBR workflow processed 48,856 records in 69.84 s. Runtime will vary across software, hardware, and accelerator configurations. Energy use and carbon footprint were not measured.
 
 ## Availability and contact
 
